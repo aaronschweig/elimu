@@ -4,7 +4,6 @@ export default defineNuxtConfig({
         '@nuxt/content',
         '@nuxtjs/tailwindcss',
         'nuxt-icon',
-        '@nuxt/image-edge'
     ],
     app: {
         head: {
@@ -18,8 +17,5 @@ export default defineNuxtConfig({
                 }
             ],
         }
-    },
-    image: {
-        provider: 'ipx'
     },
 })
