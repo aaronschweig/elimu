@@ -82,11 +82,11 @@ Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:
 
 Elimu - Individuelle Nachhilfe und Lerntherapie
 Jessica Schweig
-Altbachstraße 8
-66629 Oberkirchen
+Leidenbergstraße 18
+66640 Namborn-Gehweiler
 
 Mobil: 0172 6943871
-Telefon: 06855 996806
+
 
 Verantwortliche Stelle ist die natürliche oder juristische Person, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z. B. Namen, E-Mail-Adressen o. Ä.) entscheidet.
 

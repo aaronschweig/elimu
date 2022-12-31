@@ -9,7 +9,7 @@ Im **Einzelunterricht** befasse ich mich intensiv mit der Schülerin bzw. dem Sc
 Es sind nur Zahlen und Buchstaben.
 "Ich konnte Mathe noch nie!"
 Das sagen viele und sind auch überzeugt davon. 
-Wird dieser Glaubenssatz erstmal umgewandelt, ist der Weg frei für neue Herausforderungen und der berühmte Knoten löst sich.​
+Wird dieser Glaubenssatz erst einmal umgewandelt, ist der Weg frei für neue Herausforderungen und der berühmte Knoten löst sich.​
 
 ![](/jessica_knowing.jpg){.rounded}
 ::
