@@ -3,7 +3,8 @@ export default defineNuxtConfig({
     modules: [
         '@nuxt/content',
         '@nuxtjs/tailwindcss',
-        'nuxt-icon'
+        'nuxt-icon',
+        '@nuxt/image-edge'
     ],
     app: {
         head: {
@@ -18,7 +19,6 @@ export default defineNuxtConfig({
             ],
         }
     },
-    content: {
-        // documentDriven: true
+    image: {
     },
 })
