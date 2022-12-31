@@ -12,13 +12,6 @@ export default <Partial<Config>>{
                     primary: "#5199a8",
                     "--rounded-btn": "0.25rem"
                 }
-            }/* ,
-            {
-                dark: {
-                    ...require('daisyui/src/colors/themes')["[data-theme=dark]"],
-                    primary: "#5199a8",
-                    "--rounded-btn": "0.25rem"
-                }
-            } */]
+            }]
     }
 }
