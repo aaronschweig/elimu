@@ -8,7 +8,7 @@ Nach vielen schönen und lehrreichen Jahren dort, zog es mich zur Schule und der
 Hier erkannte ich, wie viele individuelle und unterschiedliche Probleme  beim Lernen und Lehren auftreten können.
 
 Daraufhin absolvierte ich mein Studium in integrativer Lerntherapie.
-2019 absolvierte ich zusätzlich Ausbildung zum Lerncoach.
+2019 absolvierte ich zusätzlich eine Ausbildung zum Lerncoach.
 Im Januar 2022 habe ich die Ausbildung zum Dyskalkulietrainer abgeschlossen.
 
 Interesse und Freude am Lernen zu vermitteln ist eine Aufgabe,
