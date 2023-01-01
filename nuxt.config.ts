@@ -8,6 +8,9 @@ export default defineNuxtConfig({
     app: {
         head: {
             title: 'Elimu',
+            htmlAttrs: {
+                lang: 'de'
+            },
             link: [
                 {
                     //<link rel="icon" href="/favicon.svg" type="image/svg+xml">
