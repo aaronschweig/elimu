@@ -17,7 +17,7 @@ Ein ganzheitlicher Ansatz aus den Bereichen NLP, systemisches Coaching, Motivati
 [....macht Lernen auch Spaß!]{.text-2xl.font-bold.no-underline}
 
 ::div{.lg:grid.lg:grid-cols-3.gap-x-4}
-![](/jessica_thinking.webp){.rounded}
+![](/balls.webp){.rounded}
 
 ![](/numbers.webp){.rounded}
 

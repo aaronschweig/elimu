@@ -35,7 +35,7 @@ const { data } = await useAsyncData('bildung-wissen-lernen', () => queryContent(
             <p>Denn in allen steckt Einzigartiges!</p>
         </div>
     </div>
-    <div class="grid gap-y-8 md:grid-cols-3">
+    <div class="grid gap-y-8 md:grid-cols-3 pb-20">
         <div class="flex flex-col items-center gap-y-4">
             <Icon name="heroicons:map-pin" class="w-12 h-auto text-primary" />
             <div class="flex flex-col items-center">
