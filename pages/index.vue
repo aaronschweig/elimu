@@ -4,7 +4,7 @@ const { data } = await useAsyncData('bildung-wissen-lernen', () => queryContent(
 
 <template>
     <div class="relative">
-        <img src="/pens.jpg" alt="chalkboard" class="w-full h-72 md:h-96 object-cover" />
+        <img src="/pens.webp" alt="chalkboard" class="w-full h-72 md:h-96 object-cover" />
         <div class="absolute top-1/4 md:top-1/3 left-4 md:right-[12.5%] text-base-100 text-4xl flex items-end flex-col">
             <h1>Ab sofort auch Online!</h1>
             <button class="btn btn-primary uppercase mt-12">Elimu bedeutet Bildung</button>
@@ -15,8 +15,8 @@ const { data } = await useAsyncData('bildung-wissen-lernen', () => queryContent(
             <h2 class="text-2xl font-semibold tracking-wider">Bildung - Wissen - Lernen</h2>
             <p>Untrennbar miteinander verbunden!</p>
             <div class="grid md:grid-cols-2 mx-12 md:mx-24 gap-8">
-                <img src="/room.jpg"   alt="room" />
-                <img src="/room.jpg"   alt="room" />
+                <img src="/room.webp"   alt="room" />
+                <img src="/room.webp"   alt="room" />
             </div>
             <p>Lerncoaching - Nachhilfe - Lernkurse</p>
             <p>Mit Spaß das Lernen neu entdecken</p>
@@ -26,7 +26,7 @@ const { data } = await useAsyncData('bildung-wissen-lernen', () => queryContent(
         </div>
     </div>
     <div class="relative">
-        <img src="/pens.jpg" alt="chalkboard" class="w-full h-96 object-cover" />
+        <img src="/pens.webp" alt="chalkboard" class="w-full h-96 object-cover" />
         <div
             class="absolute text-base-100 text-center md:text-left top-0 text-2xl md:text-4xl flex flex-col justify-center items-center w-full h-full bg-primary bg-opacity-50 gap-y-8">
             <h2>Jeder Mensch ist einmalig!</h2>
