@@ -4,7 +4,7 @@ specifiers:
   '@nuxt/content': 2.4.2
   '@nuxtjs/tailwindcss': 6.3.1
   '@tailwindcss/typography': 0.5.9
-  daisyui: 2.49.0
+  daisyui: 2.50.0
   nuxt: 3.0.0
   nuxt-icon: 0.2.9
 
@@ -12,7 +12,7 @@ devDependencies:
   '@nuxt/content': 2.4.2
   '@nuxtjs/tailwindcss': 6.3.1
   '@tailwindcss/typography': 0.5.9
-  daisyui: 2.49.0
+  daisyui: 2.50.0
   nuxt: 3.0.0
   nuxt-icon: 0.2.9
 
@@ -2102,8 +2102,8 @@ packages:
     resolution: {integrity: sha512-d4ZVpCW31eWwCMe1YT3ur7mUDnTXbgwyzaL320DrcRT45rfjYxkt5QWLrmOJ+/UEAI2+fQgKe/fCjR8l4TpRgw==}
     dev: true
 
-  /daisyui/2.49.0:
-    resolution: {integrity: sha512-+hEFMupi/7rqkAH4d3iBWj1TXRq73V3PrkJ3HiDqFuQgMoE1/UQOgMoeqaHa3r4IRo4fjMNauwHBA17qT0YSIA==}
+  /daisyui/2.50.0:
+    resolution: {integrity: sha512-KiqRvqMXi9rgoH84M8D69gXPg6x+cbdiaHqm8pFHOsXXN1rTl/+OcCKkSnkEwTtIge9VJVDGU6l4B8/n+Juc5g==}
     peerDependencies:
       autoprefixer: ^10.0.2
       postcss: ^8.1.6
