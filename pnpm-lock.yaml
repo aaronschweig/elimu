@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@nuxt/content': 2.4.2
+  '@nuxt/content': 2.4.3
   '@nuxtjs/tailwindcss': 6.3.1
   '@tailwindcss/typography': 0.5.9
   daisyui: 2.50.0
@@ -9,7 +9,7 @@ specifiers:
   nuxt-icon: 0.2.9
 
 devDependencies:
-  '@nuxt/content': 2.4.2
+  '@nuxt/content': 2.4.3
   '@nuxtjs/tailwindcss': 6.3.1
   '@tailwindcss/typography': 0.5.9
   daisyui: 2.50.0
@@ -497,15 +497,14 @@ packages:
       fastq: 1.14.0
     dev: true
 
-  /@nuxt/content/2.4.2:
-    resolution: {integrity: sha512-Nz2ZcC7R505UY5NQN+WE1pZ4ie8PBBr12qJHFAZqhWCXenzsdb87p48fvr6Zhlj8CyCTQqWg0B2fs7Lyg/CKwg==}
+  /@nuxt/content/2.4.3:
+    resolution: {integrity: sha512-HRx4+9RK2bgtBObcgfrWg/MS0G+mgq87tAA6Q6vjusDpVGE4DhnPN/9nkEMEyfebPZ22iI7z51GN2Od/SnABHA==}
     dependencies:
       '@nuxt/kit': 3.1.1
       consola: 2.15.3
       defu: 6.1.2
       destr: 1.2.2
       detab: 3.0.2
-      html-tags: 3.2.0
       json5: 2.2.3
       knitwork: 1.0.0
       listhen: 1.0.2
