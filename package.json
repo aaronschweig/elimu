@@ -8,11 +8,11 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@nuxt/content": "2.4.3",
+    "@nuxt/content": "2.5.1",
     "@nuxtjs/tailwindcss": "6.4.1",
     "@tailwindcss/typography": "0.5.9",
-    "daisyui": "2.51.1",
-    "nuxt": "3.0.0",
-    "nuxt-icon": "0.2.10"
+    "daisyui": "2.51.3",
+    "nuxt": "3.2.3",
+    "nuxt-icon": "0.3.2"
   }
 }
