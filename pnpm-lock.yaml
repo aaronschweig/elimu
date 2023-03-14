@@ -6,7 +6,7 @@ specifiers:
   '@tailwindcss/typography': 0.5.9
   daisyui: 2.51.3
   nuxt: 3.2.3
-  nuxt-icon: 0.3.2
+  nuxt-icon: 0.3.3
 
 devDependencies:
   '@nuxt/content': 2.5.1
@@ -14,7 +14,7 @@ devDependencies:
   '@tailwindcss/typography': 0.5.9
   daisyui: 2.51.3
   nuxt: 3.2.3
-  nuxt-icon: 0.3.2
+  nuxt-icon: 0.3.3
 
 packages:
 
@@ -1271,7 +1271,7 @@ packages:
     engines: {node: ^14.18.0 || ^16.10.0 || ^17.0.0 || ^18.0.0 || ^19.0.0}
     dependencies:
       '@nuxt/schema': 3.2.3_rollup@3.18.0
-      c12: 1.1.2
+      c12: 1.2.0
       consola: 2.15.3
       defu: 6.1.2
       globby: 13.1.3
@@ -1280,13 +1280,40 @@ packages:
       jiti: 1.17.2
       knitwork: 1.0.0
       lodash.template: 4.5.0
-      mlly: 1.1.1
+      mlly: 1.2.0
       pathe: 1.1.0
       pkg-types: 1.0.2
       scule: 1.0.0
       semver: 7.3.8
       unctx: 2.1.2
       unimport: 2.2.4_rollup@3.18.0
+      untyped: 1.2.2
+    transitivePeerDependencies:
+      - rollup
+      - supports-color
+    dev: true
+
+  /@nuxt/kit/3.3.1:
+    resolution: {integrity: sha512-zb7/2FUIB1g7nl6K6qozUzfG5uu4yrs9TQjZvpASnPBZ/x1EuJX5k3AA71hMMIVBEX9Adxvh9AuhDEHE5W26Zg==}
+    engines: {node: ^14.18.0 || ^16.10.0 || ^17.0.0 || ^18.0.0 || ^19.0.0}
+    dependencies:
+      '@nuxt/schema': 3.3.1
+      c12: 1.2.0
+      consola: 2.15.3
+      defu: 6.1.2
+      globby: 13.1.3
+      hash-sum: 2.0.0
+      ignore: 5.2.4
+      jiti: 1.17.2
+      knitwork: 1.0.0
+      lodash.template: 4.5.0
+      mlly: 1.2.0
+      pathe: 1.1.0
+      pkg-types: 1.0.2
+      scule: 1.0.0
+      semver: 7.3.8
+      unctx: 2.1.2
+      unimport: 3.0.2
       untyped: 1.2.2
     transitivePeerDependencies:
       - rollup
@@ -1312,10 +1339,10 @@ packages:
     resolution: {integrity: sha512-AXzRnBivCwn5RpNFWjUkvOPGPSHl5BM+6GfOpSNglPXi0tiQJ+rawSl7no7BkxGDmQ44Bx9AXwvHTrgjpcuo4g==}
     engines: {node: ^14.18.0 || ^16.10.0 || ^17.0.0 || ^18.0.0 || ^19.0.0}
     dependencies:
-      c12: 1.1.2
+      c12: 1.2.0
       create-require: 1.1.1
       defu: 6.1.2
-      hookable: 5.4.2
+      hookable: 5.5.1
       jiti: 1.17.2
       pathe: 1.1.0
       pkg-types: 1.0.2
@@ -1330,11 +1357,33 @@ packages:
       - supports-color
     dev: true
 
+  /@nuxt/schema/3.3.1:
+    resolution: {integrity: sha512-E8HWzU43rXzqwDTmWduTLHY4xIwRSAUt1LbpuE9IjZ4uJZq5Mbaj4nfhANNsTQGw2c+O+rL81yzAP3i61LEJDw==}
+    engines: {node: ^14.18.0 || ^16.10.0 || ^17.0.0 || ^18.0.0 || ^19.0.0}
+    dependencies:
+      c12: 1.2.0
+      create-require: 1.1.1
+      defu: 6.1.2
+      hookable: 5.5.1
+      jiti: 1.17.2
+      pathe: 1.1.0
+      pkg-types: 1.0.2
+      postcss-import-resolver: 2.0.0
+      scule: 1.0.0
+      std-env: 3.3.2
+      ufo: 1.1.1
+      unimport: 3.0.2
+      untyped: 1.2.2
+    transitivePeerDependencies:
+      - rollup
+      - supports-color
+    dev: true
+
   /@nuxt/telemetry/2.1.10:
     resolution: {integrity: sha512-FOsfC0i6Ix66M/ZlWV/095JIdfnRR9CRbFvBSpojt2CpbwU1pGMbRiicwYg2f1Wf27LXQRNpNn1OczruBfEWag==}
     hasBin: true
     dependencies:
-      '@nuxt/kit': 3.2.3_rollup@3.18.0
+      '@nuxt/kit': 3.3.1
       chalk: 5.2.0
       ci-info: 3.8.0
       consola: 2.15.3
@@ -1386,7 +1435,7 @@ packages:
       h3: 1.5.0
       knitwork: 1.0.0
       magic-string: 0.30.0
-      mlly: 1.1.1
+      mlly: 1.2.0
       ohash: 1.0.0
       pathe: 1.1.0
       perfect-debounce: 0.1.3
@@ -1703,7 +1752,7 @@ packages:
   /@unhead/schema/1.1.21:
     resolution: {integrity: sha512-JfOX2TGlxWY/ZRpEeOJohzDn0MWGjgvsI8O7nwqpOEIr/hu/sMz7Y4+3UYVAKkbHUAIi7edXtiDKLvKvfC7wtg==}
     dependencies:
-      hookable: 5.4.2
+      hookable: 5.5.1
       zhead: 2.0.4
     dev: true
 
@@ -1727,7 +1776,7 @@ packages:
     dependencies:
       '@unhead/schema': 1.1.21
       '@unhead/shared': 1.1.21
-      hookable: 5.4.2
+      hookable: 5.5.1
       unhead: 1.1.21
       vue: 3.2.47
     dev: true
@@ -2217,14 +2266,14 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /c12/1.1.2:
-    resolution: {integrity: sha512-fHT5HDEHNMb2oImnqJ88/UlpEOkY/chdyYxSd3YCpvBqBvU0IDlHTkNc7GnjObDMxdis2lL+rwlQcNq8VeZESA==}
+  /c12/1.2.0:
+    resolution: {integrity: sha512-CMznkE0LpNEuD8ILp5QvsQVP+YvcpJnrI/zFeFnosU2PyDtx1wT7tXfZ8S3Tl3l9MTTXbKeuhDYKwgvnAPOx3w==}
     dependencies:
       defu: 6.1.2
       dotenv: 16.0.3
       giget: 1.1.2
       jiti: 1.17.2
-      mlly: 1.1.1
+      mlly: 1.2.0
       pathe: 1.1.0
       pkg-types: 1.0.2
       rc9: 2.0.1
@@ -2303,7 +2352,7 @@ packages:
     resolution: {integrity: sha512-p1dJO1Z995odIxdypzAykHIaUu+XnEvwYPSTyKJsbpL82o99sxN1G24tbecoMxTsV4PI+ZId82GJXRL2hhOeJA==}
     hasBin: true
     dependencies:
-      c12: 1.1.2
+      c12: 1.2.0
       consola: 2.15.3
       convert-gitmoji: 0.1.3
       execa: 6.1.0
@@ -3199,7 +3248,7 @@ packages:
     resolution: {integrity: sha512-MAU9ci3XdpqOX1aoIoyL2DMzW97P8LYeJxIUkfXhOfsrkH4KLHFaYDwKN0B2l6tqedVJWiTIJtWmxmZfa05vOQ==}
     dependencies:
       enhanced-resolve: 5.12.0
-      mlly: 1.1.1
+      mlly: 1.2.0
       pathe: 1.1.0
       ufo: 1.1.1
     dev: true
@@ -3637,6 +3686,10 @@ packages:
 
   /hookable/5.4.2:
     resolution: {integrity: sha512-6rOvaUiNKy9lET1X0ECnyZ5O5kSV0PJbtA5yZUgdEF7fGJEVwSLSislltyt7nFwVVALYHQJtfGeAR2Y0A0uJkg==}
+    dev: true
+
+  /hookable/5.5.1:
+    resolution: {integrity: sha512-ac50aYjbtRMMZEtTG0qnVaBDA+1lqL9fHzDnxMQlVuO6LZWcBB7NXjIu9H9iImClewNdrit4RiEzi9QpRTgKrg==}
     dev: true
 
   /html-tags/3.2.0:
@@ -4889,6 +4942,15 @@ packages:
       ufo: 1.1.1
     dev: true
 
+  /mlly/1.2.0:
+    resolution: {integrity: sha512-+c7A3CV0KGdKcylsI6khWyts/CYrGTrRVo4R/I7u/cUsy0Conxa6LUhiEzVKIw14lc2L5aiO4+SeVe4TeGRKww==}
+    dependencies:
+      acorn: 8.8.2
+      pathe: 1.1.0
+      pkg-types: 1.0.2
+      ufo: 1.1.1
+    dev: true
+
   /mri/1.2.0:
     resolution: {integrity: sha512-tzzskb3bG8LvYGFF/mDTpq3jpI6Q9wc3LEmBaghu+DdCssd1FakN7Bc0hVNmEyGq1bq3RgfkCb3cmQLpNPOroA==}
     engines: {node: '>=4'}
@@ -4945,7 +5007,7 @@ packages:
       '@rollup/pluginutils': 5.0.2_rollup@3.18.0
       '@vercel/nft': 0.22.6
       archiver: 5.3.1
-      c12: 1.1.2
+      c12: 1.2.0
       chalk: 5.2.0
       chokidar: 3.5.3
       consola: 2.15.3
@@ -4960,7 +5022,7 @@ packages:
       globby: 13.1.3
       gzip-size: 7.0.0
       h3: 1.5.0
-      hookable: 5.4.2
+      hookable: 5.5.1
       http-proxy: 1.18.1
       is-primitive: 3.0.1
       jiti: 1.17.2
@@ -4968,7 +5030,7 @@ packages:
       knitwork: 1.0.0
       listhen: 1.0.3
       mime: 3.0.0
-      mlly: 1.1.1
+      mlly: 1.2.0
       mri: 1.2.0
       node-fetch-native: 1.0.2
       ofetch: 1.0.1
@@ -5114,7 +5176,7 @@ packages:
   /nuxt-config-schema/0.4.5:
     resolution: {integrity: sha512-Y5anu5puDfMJfDP7IYjXsn6Dvj262HtjZqa73jCBbFRCc5jnjrs+BEpJJmtPG32ZsqzO2+RL4oTNb3H6IfKZLQ==}
     dependencies:
-      '@nuxt/kit': 3.2.3_rollup@3.18.0
+      '@nuxt/kit': 3.3.1
       changelogen: 0.4.1
       defu: 6.1.2
       jiti: 1.17.2
@@ -5125,11 +5187,11 @@ packages:
       - supports-color
     dev: true
 
-  /nuxt-icon/0.3.2:
-    resolution: {integrity: sha512-066pfova2nE9GZDvHE9oMkqJCwsnJvOZKU2FOSzRpjfXupH3UPtP9Zw8+C2wvZ82Nel6fuRoIUNQh5Sx8ZeQrQ==}
+  /nuxt-icon/0.3.3:
+    resolution: {integrity: sha512-KdhJAigBGTP8/YIFZ3orwetk40AgLq6VQ5HRYuDLmv5hiDptor9Ro+WIdZggHw7nciRxZvDdQkEwi9B5G/jrkQ==}
     dependencies:
       '@iconify/vue': 4.1.0
-      '@nuxt/kit': 3.2.3_rollup@3.18.0
+      '@nuxt/kit': 3.3.1
       nuxt-config-schema: 0.4.5
     transitivePeerDependencies:
       - rollup
@@ -5417,7 +5479,7 @@ packages:
     resolution: {integrity: sha512-hM58GKXOcj8WTqUXnsQyJYXdeAPbythQgEF3nTcEo+nkD49chjQ9IKm/QJy9xf6JakXptz86h7ecP2024rrLaQ==}
     dependencies:
       jsonc-parser: 3.2.0
-      mlly: 1.1.1
+      mlly: 1.2.0
       pathe: 1.1.0
     dev: true
 
@@ -6848,7 +6910,7 @@ packages:
       '@unhead/dom': 1.1.21
       '@unhead/schema': 1.1.21
       '@unhead/shared': 1.1.21
-      hookable: 5.4.2
+      hookable: 5.5.1
     dev: true
 
   /unified/10.1.2:
@@ -6871,7 +6933,25 @@ packages:
       fast-glob: 3.2.12
       local-pkg: 0.4.3
       magic-string: 0.27.0
-      mlly: 1.1.1
+      mlly: 1.2.0
+      pathe: 1.1.0
+      pkg-types: 1.0.2
+      scule: 1.0.0
+      strip-literal: 1.0.1
+      unplugin: 1.1.0
+    transitivePeerDependencies:
+      - rollup
+    dev: true
+
+  /unimport/3.0.2:
+    resolution: {integrity: sha512-OQ0hShpcerS1PSsISsyn/NV2dGe5xfdUn4p5nwOodq0iqq5xxYQrTidHqlFGjxIliPDtDJp80OeySzyPTjYHmA==}
+    dependencies:
+      '@rollup/pluginutils': 5.0.2_rollup@3.18.0
+      escape-string-regexp: 5.0.0
+      fast-glob: 3.2.12
+      local-pkg: 0.4.3
+      magic-string: 0.30.0
+      mlly: 1.2.0
       pathe: 1.1.0
       pkg-types: 1.0.2
       scule: 1.0.0
@@ -7068,7 +7148,7 @@ packages:
     dependencies:
       cac: 6.7.14
       debug: 4.3.4
-      mlly: 1.1.1
+      mlly: 1.2.0
       pathe: 1.1.0
       picocolors: 1.0.0
       vite: 4.1.4
